@@ -2,7 +2,6 @@ import { query as q } from "faunadb";
 
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-
 import { fauna } from '../../../services/fauna';
 
 export default NextAuth({
